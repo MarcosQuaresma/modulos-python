@@ -4,7 +4,8 @@ import operacoes_matematicas # em alguns casos importar um módulo completo pode
                              # iriamos uasar ele por completo.
 # Dentro do Módulo podemos importar também ultilizando o "from" somente o que é nescessário. como por exemplo:
 from operacoes_matematicas import multiplicar, dividir
-import str_utils
+
+import str_utils # poderia importar separado ou completo.
 
 print(operacoes_matematicas.somar(5, 4))    #<--- importanto do módulo INTEIRO de "operacoes_matematicas"
 print(operacoes_matematicas.subtrair(5, 4)) #<--- importanto do módulo INTEIRO de "operacoes_matematicas"
