@@ -32,7 +32,7 @@ while not done:
         if numero == resultado:
             print("Parabéns, você é um aspirante a cigano!")
         else:
-            print(f"O número sorteado foi {resultado}, não foi dessa vez...Tente novamente") 
+            print(f"O número sorteado foi o: {resultado}, não foi dessa vez...Tente novamente") 
     elif escolha == "2":
         done = True 
     else:
